@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 5px 0px 5px 0px;
+    background-color: #d9d9d9;
+}
+
+.cabecalho{
+    display: flex;
+    margin: auto;
+    width: 1200px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.manu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 512px;
+    
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    color:707070;
+}
+
+.banner{
+    background-image: url(../IMAGENS/banner.png);
+    margin: auto;
+    width: 1200px;
+    height: 100px;
+
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 100px;
+
+}
+
+main{
+    width: 1200px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2.0;
+    margin-bottom: 100px;
+}
+
+.texto_mais{
+    display: flex;
+    text-align: center;
+}
+
+.texto_mais2{
+    display: flex;
+    text-align: center;
+}
+
+.texto{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer{
+    display: flex;
+    background-color: #dfd2dc;
+    padding: 5px 0px 5px 0px;
+    align-items: flex-start;
+
+}
+
+.rodape{
+    width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.imagem_lado{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+
+.saiba_mais{
+    border: 5px #8a1977 solid;
+    border-radius: 5px;
+    padding: 3px 20px 3px 20px;
+    margin-top: none;
+    color: #707070;
+}
+
+.rodape{
+
+}
